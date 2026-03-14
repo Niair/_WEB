@@ -201,5 +201,3 @@ If `git blame` shows a commit with a message like `fix(payment): critical idempo
 | Who wrote this line | `git blame <file>` |
 | What did this commit do | `git show <hash>` |
 | Undo last commit (keep changes) | `git reset --soft HEAD~1` |
-
-The biggest shift from personal to professional Git is this: **your commit messages are documentation**. Six months from now, a teammate — or you — will read them to understand a decision. Write for them.
