@@ -1,0 +1,24 @@
+{
+  "name": "js-practice-workspace",
+  "version": "1.0.0",
+  "description": "Shared workspace for JavaScript practice projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": ["javascript", "practice", "learning"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*spec.js",
+      "**/*test.js"
+    ],
+    "testEnvironment": "node"
+  }
+}
